@@ -31,15 +31,13 @@ const form = document.querySelector('form#userForm')
         // colorItem.appendChild(colorDiv)
 
         const renderColor = function() {
-        colorDiv.style.backgroundColor = favoriteColor
+        colorDiv.style.backgroundColor= favoriteColor
         colorDiv.style.width = '6rem'
         colorDiv.style.height = '3rem'
+        colorItem.appendChild(colorDiv)
         }
         renderColor()
-        //return colorDiv    
-        colorItem.appendChild(colorDiv)
-           
-        //colorItem.appendChild(renderColor)
+        
         list.appendChild(nameItem)
         list.appendChild(ageItem)
         list.appendChild(colorItem)
