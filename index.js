@@ -9,7 +9,7 @@ const form = document.querySelector('form#userForm')
         const form = ev.target
         const userName = form.userName.value
         const users = document.querySelector('#users')
-        users.innterHTML +='<p>' + userName + ", " + form.age.value + '</p>'
+        users.innterHTML += `<p>${userName},${age}</p>`
         form.reset() 
         form.userName.focus() 
     }
