@@ -9,7 +9,7 @@ const form = document.querySelector('form#userForm')
         const form = ev.target
         const userName = form.userName.value
         const users = document.querySelector('#users')
-        users.textContent +=" " + userName
+        users.innterHTML +='<p>' + userName + '</p>'
         form.userName.value = " "
     }
 form.addEventListener('submit', handleSubmit)
