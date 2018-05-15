@@ -9,7 +9,8 @@ const form = document.querySelector('form#userForm')
         const form = ev.target
         const userName = form.userName.value
         const users = document.querySelector('#users')
-        users.innterHTML +='<p>' + userName + '</p>'
-        form.userName.value = " "
+        users.innterHTML +='<p>' + userName + ", " + form.age.value + '</p>'
+        form.reset() 
+        form.userName.focus() 
     }
 form.addEventListener('submit', handleSubmit)
