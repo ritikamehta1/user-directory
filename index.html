@@ -9,21 +9,26 @@
 </head>
 <body>
     <h1 class="UD" >User Directory</h1>
-    <h1 class="W" >Welcome</h1>
-    <h1 class="H" >HELLO</h1>
-    <h2>Text Input</h2>
-    <form id="userForm">
-    <label for="userName">User Name</label>
-    <input type="text" 
-    name="userName" id="FA" autofocus>
-    <label for="Age">Age</label>
-    <input type="number" 
-    name="userName" id="FA" autofocus>
-    <br>
-    <button type="submit">Go</button>
-    <div id="users"></div>
-    </form>
 
+<form id="userForm">
+    <p>
+        <label for="userName">Name</label>
+        <input type="text" name="userName" autofocus> 
+    </p>
+    <p> 
+        <label for="Age">Age</label>
+        <input type="number" name ="age">
+    </p>    
+    <p>
+        <label for="favoriteColor">Favorite color</label>
+        <input type="color" name="favoriteColor">    
+    </p>
+    
+    <button type="submit">Go</button>
+    <button type="reset">Clear</button>
+</form>
+
+    <div id="users"></div>
     <script src="index.js"></script>
 </body>
 </html>

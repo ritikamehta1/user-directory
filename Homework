@@ -1,4 +1,20 @@
+Day 1:
 make button change the text of the heading
 add multiple headings to the page, and make the button change the _second_ one.
 add a form to the page, add a text input to the form
 update the heading with the text that you type in the text input
+
+Day 2:
+Create a new function caller `renderColor` that returns a `div` element.
+Call that function when adding that `div` to `colorItem`.
+make colordiv renderColor
+
+create a new function called `renderListItem`
+use it to create the list items for each stat
+
+create a new funciton called renderList
+Use it to create the list for each persons stats
+call renderListItem from renderList, not directly from handleSubmit
+
+do not use innterHTML
+
