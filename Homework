@@ -12,9 +12,14 @@ make colordiv renderColor
 create a new function called `renderListItem`
 use it to create the list items for each stat
 
-create a new funciton called renderList
+create a snew funciton called renderList
 Use it to create the list for each persons stats
 call renderListItem from renderList, not directly from handleSubmit
 
 do not use innterHTML
+
+Day 3
+make a thing that adds something to a list--channing tatum themed
+make a thing that adds something to a arry
+make a remove button for an individual item from the list
 
